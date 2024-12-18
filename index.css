@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dancing-script-italic {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.navbar-links {
+  display: flex;
+  column-gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #1d232c;
+  ;
+
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+  color: #1d232c;
+}
+
+.navbar-menu-toggle {
+  display: none;
+}
+
+.side-navbar{
+  background-color: #1d232c;
+  width:50% ;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -60%;
+  padding: 20px;
+  color: white;
+  transition: 2s;
+  
+}
+
+.side-navbar-link{
+  margin-bottom: 30px;
+
+}
+.side-navbar-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.side-navbar-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.side-navbar-links a:hover{
+  text-decoration:underline;
+  color: lightgray;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+  
+}
+
+.header-button{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1d232c;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.service{
+  padding: 20px;
+
+}
+
+.service-container-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.service-container-2{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.service-container-2 div{
+  background-color: #f2f4f7;
+  border-radius: 5px;
+  padding: 20px;
+
+}
+
+.new-arrival{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.new-arrival-container{
+  position: relative;
+  flex-basis: 20%;
+}
+
+.new-arrival button{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10px;
+  color: #1D232C;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  border-radius: 10px;
+  border: none;
+
+
+}
+
+.news{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news input{
+  padding: 11px;
+  width: 80vw;
+  margin-bottom: 10px;
+  border: solid black 3px;
+  margin-top: 20px;
+}
+
+.news button{
+  margin-top: 10px;
+  color: #f2f4f7;
+  background-color: #1D232C;
+  border-radius: 10px;
+  padding: 10px;
+  
+
+}
+
+.footer{
+  margin-top: 200px;
+  padding: 40px;
+  background-color: #1D232C;
+  color: #f2f4f7;
+}
+
+.product-section{
+  margin-top: 20px;
+
+}
+
+.product-search{
+  width: 80%;
+  border: solid black 2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.product-search input{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.product-search :focus{
+  outline: none;
+}
+
+.products{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.products-box{
+  text-align: center;
+  flex-basis: 20%;
+}
+
+.products-box img{
+  border-radius: 10px;
+}
+
+.contact-container {
+  background-color: #1D232C;
+  
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 10px;
+
+
+  
+}
+
+.contact-box{
+  color: #ffffff;
+  padding: 20px;
+}
+
+.contact-box input{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+}
+
+  
+  
+
+@media screen and (max-width:700px) {
+  .navbar-menu-toggle {
+    display: block;
+  }
+
+  .navbar-links{
+    display: none;
+
+  }
+  .image1{
+    display: none;
+  }
+  .service-container-1{
+    display: none;
+  }
+
+  .service-container-2{
+    flex-direction: column;
+  }
+
+  .contact-box{
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .contact-box input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+  }
+
+
+}
+
+
+
+
+
+
+
